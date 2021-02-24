@@ -1,0 +1,3 @@
+g++ -std=c++11 -c -g parser.cpp -o parser.o
+g++ -std=c++11 -c -g Shape.cpp -o Shape.o
+g++ -std=c++11 parser.o Shape.o -o parser.exe
